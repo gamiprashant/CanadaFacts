@@ -5,4 +5,7 @@
     <string name="no_data">No data available.\nPlease try again later.</string>
     <string name="message_copyright">CopyRight ©ARY 2015, all Rights Reserved.</string>
     <string name="error_refresh">"Could not Refresh Data"</string>
+    <string name="title_activity_main">Canada Facts</string>
+
+    <string name="hello_world">Hello world!</string>
 </resources>

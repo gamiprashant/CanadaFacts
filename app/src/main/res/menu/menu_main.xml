@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ary.mobile.canadafacts.ui.MainActivity">
+    <item android:id="@+id/refresh"
+        android:title=""
+        android:icon="@drawable/bg_refresh_button"
+        android:showAsAction="always"
+        />
+</menu>
