@@ -1,8 +1,31 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppFont">
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="BannerFont" parent="AppFont">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/light_grey</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    <style name="TitleFont" parent="AppFont">
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="HeaderFont" parent="AppFont">
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="RegularFont" parent="AppFont">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="DescriptionFont" parent="AppFont">
+        <item name="android:textSize">14sp</item>
     </style>
 
 </resources>

@@ -5,7 +5,20 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".WelcomeActivity">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
+    <TextView android:text="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/BannerFont"
+        android:textColor="@color/dark_grey"
+        android:gravity="center"
+        android:layout_centerInParent="true" />
+
+    <TextView android:text="@string/message_copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/DescriptionFont"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        />
 </RelativeLayout>
