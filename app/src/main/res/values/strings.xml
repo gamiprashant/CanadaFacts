@@ -7,5 +7,8 @@
     <string name="error_refresh">"Could not Refresh Data"</string>
     <string name="title_activity_main">Canada Facts</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="json_title">title</string>
+    <string name="json_description">description</string>
+    <string name="json_image_href">imageHref</string>
+    <string name="json_rows">rows</string>
 </resources>

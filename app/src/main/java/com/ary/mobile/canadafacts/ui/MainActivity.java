@@ -179,17 +179,17 @@ public class MainActivity extends Activity implements SwipeRefreshLayout.OnRefre
 
             try {
                 //Parse and Update Title
-                title = AryCommons.safe(params[0].getString("title"));
+                title = AryCommons.safe(params[0].getString(getString(R.string.json_title)));
 
                 //Parse Facts
-                JSONArray products = params[0].getJSONArray("rows");
+                JSONArray products = params[0].getJSONArray(getString(R.string.json_rows));
 
                 for (int i = 0; i < products.length(); i++) {
                     JSONObject p = products.getJSONObject(i);
 
-                    String factTitle = AryCommons.safe(p.getString("title"));
-                    String description = AryCommons.safe(p.getString("description"));
-                    String imageUrl = AryCommons.safe(p.getString("imageHref"));
+                    String factTitle = AryCommons.safe(p.getString(getString(R.string.json_title)));
+                    String description = AryCommons.safe(p.getString(getString(R.string.json_description)));
+                    String imageUrl = AryCommons.safe(p.getString(getString(R.string.json_image_href)));
 
                     if (!(factTitle.isEmpty() && description.isEmpty() && imageUrl.isEmpty()))
                         facts.add(new Fact(factTitle, description, imageUrl));
